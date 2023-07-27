@@ -1,3 +1,4 @@
+/* pages/test/test.wxss */
 .top-header{
   position: relative;
   /* display: flex;
@@ -39,52 +40,69 @@
   color: gray;
 }
 .menu{
-  /* 防止定位跟弹性布局冲突所以显式加一个宽度 */
-  width: 100%;
+  /* background: pink; */
+  height: 60vh;
   position: relative;
-  top: -55rpx;
+  top: -50rpx;
   border-top-left-radius:60rpx;
-  /* border-top-right-radius:11%; */
-  height: 100%;
-  background: #FFF;
-  /* background: #000; */
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  border-top-right-radius:60rpx;
+ 
+}
+.menu_content{
+ /* 防止定位跟弹性布局冲突所以显式加一个宽度 */
+ width: 100%;
+ /* position: relative;
+ top: 50rpx; */
+ padding-top: 30rpx;
+ border-top-left-radius:60rpx;
+ border-top-right-radius:60rpx;
+ /* border-top-right-radius:11%; */
+ /* height: 100%; */
+ background: #FFF;
+ /* background: #000; */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ /* flex-wrap: wrap; */
 }
 .menu-btn{
-  width: 300rpx;
-  height: 300rpx;
+  width: 170rpx;
+  height: 170rpx;
   border-radius: 50%;
   border: 1rpx solid #b8b5b5;
   /* box-shadow: 0 2rpx 4rpx #00000014; */
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 25rpx 25rpx 0 25rpx;
+  /* margin: 25rpx 25rpx 0 25rpx; */
+  margin-right: 25rpx;
   color: #FFF;
   opacity: .7;
   box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
+  font-size: small;
+  text-align: center;
 }
-.menu_top{
+/* .menu_top{
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 .menu-btn1{
-  width: 300rpx;
-  background: #83bceb;
+  margin-left: 25rpx;
+  background: #FF8A65;
 }
 .menu-btn2{
-  background: #f7b56a;
+  width: 220rpx;
+  height: 220rpx;
+  background: #379af7;
 }
 .menu-btn3{
-  background: #f5b3ab;
+  background: #FF7D60;
 }
 .menu-btn4{
   /* background: #fa9c50; */
-  background-color: #FFD383;
+  background-color: #FF7D60;
 }
 .open{
   display: block;

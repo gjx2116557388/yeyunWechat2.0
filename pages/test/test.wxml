@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <!-- data-weui-theme="dark" 切换刀dark模式 -->
-<view style="height: 100%;">
+<view style="position: relative;">
   <view class="top-header">
 <!-- 顶部错误提示 -->
   <!-- <mp-toptips msg="{{error}}" type="error" show="{{error}}"></mp-toptips> -->
@@ -10,28 +10,31 @@
     </view>
   </view>
   <view class="menu">
-    <!-- 我这里是菜单 -->
-    <view class="menu_top">
-      <view class="menu-btn menu-btn1" bindtap="writeFn" data-value="0xff00">
+    <view class="menu_content">
+       <!-- 我这里是菜单 -->
+    <!-- <view class="menu_top"> -->
+      <view class="menu-btn menu-btn1" bindtap="writeFn" data-value="0xf00f">
       <view>
-          <image src="/assets/switch.png" style="width: 100rpx;height: 100rpx;"></image>
-          <view style="text-align: center;">
-            <text>开关 \n switch</text>
-          </view>
-      </view>
-    </view>
-    </view>
-    <view class="menu-btn menu-btn2" bindtap="writeFn" data-value="0xf00f">
-      <view>
-          <image src="/assets/hz.png" style="width: 100rpx;height: 100rpx;"></image>
+          <image src="/assets/hz.png" style="width: 70rpx;height: 70rpx;"></image>
           <view style="text-align: center;">
             <text>频率 \n hz</text>
           </view>
       </view>
     </view>
+
+      <view class="menu-btn menu-btn2" bindtap="writeFn" data-value="0xff00">
+        <view>
+            <image src="/assets/switch.png" style="width: 80rpx;height: 80rpx;"></image>
+            <view style="text-align: center;">
+              <text>开关 \n switch</text>
+            </view>
+        </view>
+    </view>
+    <!-- </view> -->
+    
     <!-- <view class="menu-btn menu-btn3" bindtap="writeFn" data-value="0x0ff0">
       <view>
-          <image src="/assets/heating.png" style="width: 100rpx;height: 100rpx;"></image>
+          <image src="/assets/heating.png" style="width: 80rpx;height: 80rpx;"></image>
           <view style="text-align: center;">
             <text>加热 \n heating</text>
           </view>
@@ -39,7 +42,7 @@
     </view> -->
     <view class="menu-btn menu-btn4" bindtap="shakBtn" data-value="0xaa55">
       <view>
-          <image src="/assets/my.png" style="width: 100rpx;height: 100rpx;"></image>
+          <image src="/assets/my.png" style="width: 60rpx;height: 60rpx;"></image>
           <view style="text-align: center;">
             <text>震动 \n shake</text>
           </view>
@@ -67,4 +70,5 @@
 
       </view>
     </view>
+  </view>
 </view>
