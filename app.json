@@ -2,16 +2,16 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/help",
     "pages/help/help",
-    "pages/videos/videos"
+    "pages/videos/videos",
+    "pages/test/test"
   ],
   "shareAppMessage": true,
   "shareTimeline": true,
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "夜韵玩具",
+    "navigationBarTitleText": "趣尔玩具",
     "navigationBarTextStyle": "black"
   },
   "style": "v2",

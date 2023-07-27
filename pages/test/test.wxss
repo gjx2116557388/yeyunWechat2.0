@@ -5,7 +5,7 @@
   justify-content: center; */
   color: #FFF;
   /* background: #FD637E; */
-  background-image: url("https://www.lovelilin.com/images/quer.jpg");
+  background-image: url("https://www.lovelilin.com/images/banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 400rpx;

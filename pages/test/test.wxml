@@ -59,7 +59,7 @@
         </view>
       </view>
       <view class="hot_article_right">
-        <image src="https://www.lovelilin.com/images/hot-quer.jpg" style="width: 200rpx;height: 200rpx;"></image>
+        <image src="/assets/banner.jpg" style="width: 200rpx;height: 200rpx;"></image>
       </view>
   </view>
   <view class="help">

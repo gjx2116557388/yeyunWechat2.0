@@ -1,4 +1,4 @@
-// pages/help.js
+// pages/test/test.js
 Page({
 
   /**
