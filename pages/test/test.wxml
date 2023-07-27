@@ -48,7 +48,19 @@
           </view>
       </view>
     </view>
-
+  </view>
+  <view class="hot_article">
+      <view class="hot_article_left">
+        <view class="hot_article_title">
+          自慰会伤害身体吗？
+        </view>
+        <view class="hot_article_content">
+          自慰是正常的生理现象,适度自慰不会危害身体健康,自慰可以使身体释放更多的多巴胺和催产素...
+        </view>
+      </view>
+      <view class="hot_article_right">
+        <image src="/assets/banner.jpg" style="width: 200rpx;height: 200rpx;"></image>
+      </view>
   </view>
   <view class="help">
       <navigator url="/pages/help/help">连接不上？前往查看帮助</navigator>
