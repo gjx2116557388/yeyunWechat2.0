@@ -105,8 +105,8 @@
   background-color: #FF7D60;
 }
 .open{
-  display: block;
-  height: 100%;
+  /* display: block; */
+  /* height: 100%; */
   width: 100%;
   position: absolute;
   top: 0;
@@ -115,7 +115,7 @@
   display: flex;
   justify-content: center; /* 水平居中 */
   align-items: center; /* 垂直居中 */
-  height: 100vh; /* 可根据需要设置容器高度 */
+  height: 100% /* 可根据需要设置容器高度 */
 }
 
 .close{

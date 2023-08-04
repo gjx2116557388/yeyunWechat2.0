@@ -74,7 +74,9 @@
 
       </view>
     </view> -->
-    <view class="{{shakState ? 'open' : 'close'}}">
+    
+  </view>
+  <view class="{{shakState ? 'open' : 'close'}}">
       <view class="shak_icon">
         <image class="shak_img" src="/assets/shak.png"/>
         <text>摇一摇模式</text>
@@ -82,5 +84,4 @@
 
       </view>
     </view>
-  </view>
 </view>
